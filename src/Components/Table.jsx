@@ -21,8 +21,8 @@ function Pills() {
     <tr>
       <th scope="row">Angular Project</th>
       <td>Albert Cook</td>
-      <td className="active">ACTIVE</td>
-      <td> <Popup modal
+      <td className="active">  <span className="active status">ACTIVE</span></td>
+      <td className="action"> <Popup modal
         trigger={<BsThreeDotsVertical/>} >
 <ApprovePopup/>
     </Popup></td>
@@ -30,8 +30,8 @@ function Pills() {
     <tr>
       <th scope="row">React Project</th>
       <td>Barry Hunter</td>
-      <td className="complete">COMPLETED</td>
-      <td> <Popup modal
+      <td className="complete"><span className="complete status">COMPLETED</span></td>
+      <td className="action"> <Popup modal
         trigger={<BsThreeDotsVertical/>} >
 <ApprovePopup />
     </Popup></td>
@@ -39,8 +39,8 @@ function Pills() {
     <tr>
       <th scope="row">VueJs Project</th>
       <td>Trevor Baker</td>
-      <td className="schedule">SCHEDULED</td>
-      <td> <Popup modal
+      <td className="schedule">,<span className="schedule status">SCHEDULED</span></td>
+      <td className="action"> <Popup modal
         trigger={<BsThreeDotsVertical/>} >
 <ApprovePopup/>
     </Popup></td>
@@ -48,8 +48,8 @@ function Pills() {
     <tr>
       <th scope="row">Bootstrap Project</th>
       <td>Jerry Milton</td>
-      <td className="pending">PENDING</td>
-      <td> <Popup modal
+      <td className="pending"><span className="pending status">PENDING</span></td>
+      <td className="action"> <Popup modal
         trigger={<BsThreeDotsVertical/>} >
 <ApprovePopup/>
     </Popup></td>

@@ -4,3 +4,27 @@
 .table-head{
     color:#696cff;
 }
+.action{
+    cursor: pointer;
+
+}
+.status{
+    margin:3%;
+    padding:2%;
+}
+.active{
+    color:rgb(122, 57, 240);
+    background-color: rgb(232, 222, 251);
+}
+.complete{
+    color:rgb(131,225,80);
+    background-color: #E8FADF;
+}
+.schedule{
+    color:#13C6ED;
+    background-color:#e3f6fa;
+}
+.pending{
+    color:rgb(255,186,45);
+    background-color: rgb(251, 240, 218);
+}
