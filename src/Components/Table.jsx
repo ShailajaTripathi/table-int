@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+// import './table.css'
 import {BsThreeDotsVertical} from 'react-icons/bs';
 
 function Pills() {
@@ -40,8 +40,6 @@ function Pills() {
       <td className="pending">PENDING</td>
       <td><BsThreeDotsVertical/></td>
     </tr>
-
-
   </tbody>
 </table>
     </div>

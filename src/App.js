@@ -1,11 +1,11 @@
 import './App.css';
-// import Table from './Components/Table';
-import Upload from './Components/UploadDoc'
+import Table from './Components/Table';
+import Upload from './Components/UploadDoc';
 
 function App() {
   return (
     <div className="App">
-      {/* <Table/> */}
+      <Table/>
       <Upload/>
     </div>
   );

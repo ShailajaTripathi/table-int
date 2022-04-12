@@ -25,11 +25,9 @@ label{
 }
 
 .btn-file {
-    /* position: relative; */
-    /* overflow: hidden; */
     margin-bottom : 4%;
-    background-color : #696CFF;
-    /* color:white; */
+    background-color: #696CFF;
+    color:white; 
   }
 
 
@@ -47,6 +45,8 @@ position: absolute;
   background: white;
   cursor: pointer;
   display: block;
+}.btn{
+    color:white;
 }
 
 .flex-item{
