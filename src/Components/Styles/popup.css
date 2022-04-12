@@ -1,0 +1,20 @@
+.approvePopup-container{
+    border:0.2px solid rgb(235, 233, 233);
+   margin-top: 10%;
+    margin-left:35%;
+    margin-right: 30%;
+    padding:2% 0;
+}
+.approve-btn{
+  background-color:#696cff;
+  color:white;
+  width: 120px;
+  height: 40px;
+  border-radius: 6.5%;
+  border: none;
+}
+.popup-details{
+    text-align: left;
+    margin-top:5%;
+    padding-left:5%;
+}

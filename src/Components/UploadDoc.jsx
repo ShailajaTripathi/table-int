@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './upload.css';
+import React from 'react'
+import './Styles/upload.css';
 import { ImUpload2 } from 'react-icons/im'
 
 function UploadDoc() {
