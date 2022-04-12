@@ -1,11 +1,11 @@
 import React from "react";
-// import './table.css'
+import './table.css'
 import {BsThreeDotsVertical} from 'react-icons/bs';
 
 function Pills() {
   return (
     <div className="table-container">
-      <h2>Table Caption</h2>
+      <h2 className="table-head">Table Caption</h2>
       <table class="table">
   <thead>
     <tr>

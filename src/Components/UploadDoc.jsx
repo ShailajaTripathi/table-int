@@ -47,7 +47,7 @@ function UploadDoc() {
 
                 <hr />
 
-                <button className='btn btn-primary btn-file'>Submit All documents</button>
+                <button className='btn btn-file'>Submit All documents</button>
             </form>
 
         </div>
