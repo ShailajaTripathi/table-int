@@ -1,14 +1,14 @@
 import './App.css';
-// import Table from './Components/Table';
+import Table from './Components/Table';
 // import Upload from './Components/UploadDoc';
-import Popup from './Components/ApprovePopup'
+// import Popup from './Components/ApprovePopup'
 function App() {
   return (
     <div className="App">
-      {/* <Table/>
-      <Upload/> */}
-      <Popup/>
-      
+      <Table/>
+      {/* <Upload/>
+      <Popup/> */}
+
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import './Styles/table.css'
+import Popup from 'reactjs-popup';
 import {BsThreeDotsVertical} from 'react-icons/bs';
+import ApprovePopup from "./ApprovePopup";
 
 function Pills() {
   return (
     <div className="table-container">
-      <h2 className="table-head">Table Caption</h2>
+      <h2 className="table-head">Product Status</h2>
       <table class="table">
   <thead>
     <tr>
@@ -20,25 +22,37 @@ function Pills() {
       <th scope="row">Angular Project</th>
       <td>Albert Cook</td>
       <td className="active">ACTIVE</td>
-      <td><BsThreeDotsVertical/></td>
+      <td> <Popup modal
+        trigger={<BsThreeDotsVertical/>} >
+<ApprovePopup/>
+    </Popup></td>
     </tr>
     <tr>
       <th scope="row">React Project</th>
       <td>Barry Hunter</td>
       <td className="complete">COMPLETED</td>
-      <td><BsThreeDotsVertical/></td>
+      <td> <Popup modal
+        trigger={<BsThreeDotsVertical/>} >
+<ApprovePopup />
+    </Popup></td>
     </tr>
     <tr>
       <th scope="row">VueJs Project</th>
       <td>Trevor Baker</td>
       <td className="schedule">SCHEDULED</td>
-      <td><BsThreeDotsVertical/></td>
+      <td> <Popup modal
+        trigger={<BsThreeDotsVertical/>} >
+<ApprovePopup/>
+    </Popup></td>
     </tr>
     <tr>
       <th scope="row">Bootstrap Project</th>
       <td>Jerry Milton</td>
       <td className="pending">PENDING</td>
-      <td><BsThreeDotsVertical/></td>
+      <td> <Popup modal
+        trigger={<BsThreeDotsVertical/>} >
+<ApprovePopup/>
+    </Popup></td>
     </tr>
   </tbody>
 </table>
