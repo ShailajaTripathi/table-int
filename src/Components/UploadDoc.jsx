@@ -20,7 +20,7 @@ function UploadDoc() {
                         <span className='btn btn-file'>
                             <ImUpload2 style={{ fontSize: "20px" }} />
                             Upload Adhar
-                            <input type="file" /></span> <br />
+                            <input type="file" /></span><br />
                         <span className='btn  btn-file'>
                             <ImUpload2 style={{ fontSize: "20px" }} />
                             Upload PAN

@@ -1,12 +1,19 @@
 .table-container{
     margin-left:20%;
 }
+.table{
+    margin-top: 3%;
+}
 .table-head{
     color:#696cff;
 }
 .action{
     cursor: pointer;
 
+}
+.action:hover{
+    background-color: #f4f4f7;
+    color:#696cff;
 }
 .status{
     margin:3%;
@@ -53,6 +60,7 @@ tbody, td, tfoot, th, thead, tr {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
+    text-align: left;
 }
 table tr td,table tr td{
     text-align: center;
