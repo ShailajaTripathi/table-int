@@ -9,7 +9,7 @@ function ApprovePopup() {
 <div className='popup-details'></div>
 <p>Product ID: #2re545</p>
 <p>Product Name: laptop</p>
-<button className='approve-btn'>Approve</button>
+<button className='approve-btn' onClick ={(e)=>e.targetElement.remove()}>Approve</button>
     </div>
   )
 }
@@ -17,4 +17,4 @@ function ApprovePopup() {
 export default ApprovePopup
 
 
-//  this.parentNode.remove()
+//  onClick ={(e)=>e.targetElement.remove()
