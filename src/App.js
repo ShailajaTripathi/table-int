@@ -8,7 +8,6 @@ function App() {
       <Table/>
       {/* <Upload/> */}
       {/* <Popup/> */}
-
     </div>
   );
 }
